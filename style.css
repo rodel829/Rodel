@@ -61,9 +61,7 @@ Template: braise
     color: #555;
     margin-top: 20px;*/
 /****************************************/
-.qodef-page-inner,
-#qodef-page-inner.qodef-content-grid,
-#qodef-page-inner {
+.page-template-glycemic-index-main #qodef-page-inner {
 	padding: 50px 0 0 0 !important;
 }
 .search-box {
