@@ -1,0 +1,134 @@
+/*
+Theme Name: Braise Child
+Theme URI: https://braise.qodeinteractive.com
+Description: A child theme of Braise
+Author: Elated Themes
+Author URI: https://qodeinteractive.com
+Version: 1.0
+Text Domain: braise
+Template: braise
+*/
+
+.qodef-recipe-content,
+.qodef-reviews-average-count,
+.qodef-m-print {
+	display: none !important;
+}
+		
+#qodef-page-comments-form 
+.comment-reply-title {
+	margin-bottom: 20px;
+}
+		
+.qodef-recipe-single 
+.qodef-ingredient-note {
+	color: #ffffff;
+}
+	
+.qodef-recipe-single 
+.qodef-note-opener 
+.qodef-icon {
+    cursor: help;
+}
+	
+.qodef-m-direction-text-top {
+	color: #333333;		
+}
+	
+.qodef-ingredient-quantity {
+	margin-right: 6px;	
+}
+	
+.lnr-tag:before {
+    position: relative;
+    top: 4px;
+}
+	
+.qodef-recipe-single 
+.qodef-e-content-under-image 
+.qodef-recipe-difficulty svg {
+	top: 3px;
+}
+	
+.qodef-recipe-single 
+.qodef-e-content-under-image 
+.qodef-recipe-prep-time svg {
+	top: 4px;
+}
+
+/*font-size: 13px;
+    font-style: inherit;
+    color: #555;
+    margin-top: 20px;*/
+/****************************************/
+.qodef-page-inner,
+#qodef-page-inner.qodef-content-grid,
+#qodef-page-inner {
+	margin: 0 !important;
+	padding: 0 !important !important;
+}
+.search-box {
+	width: 695px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+#search-box__search-bar {
+	padding-left: 40px;
+	font-style: italic;
+	height: 70px;
+  	border-radius: 20px;
+  	border: 2px solid #567C34;
+  	background-image: url('./img/search-icon.png');
+	background-repeat: no-repeat;
+	background-position: 97% 50%;
+}
+.alphabet-box {
+	display: inline-flex;
+  	width: auto;
+  	gap: 15px;
+  	margin: 10px 0 0;
+  	position: relative;
+}
+.alphabet-box:before,
+.alphabet-box:after {
+    content: ''; /* Required for pseudo-elements to display */
+    position: absolute;
+    width: 20px;
+    height: 100%; /* Match the height of the parent */
+    background-color: #567C34; /* Green background */
+    transform: skew(-20deg);
+    z-index: 1;
+}
+
+.alphabet-box:before {
+    left: -4px;
+}
+
+.alphabet-box:after {
+    right: 426px;
+}
+.alphabet-box__all {
+	padding: 3px 5px 3px 4px;
+  	text-align: center;
+	font-weight: 500;
+    line-height: 18px;
+  	font-family: "Raleway";
+  	color: #fff;
+  	text-transform: uppercase;
+  	background-color: #567C34;
+  	z-index: 5;
+}
+.alphabet-box__alphabet-container {
+    display: flex;
+    margin: 0 auto;
+}
+.alphabet-box__letter-box {
+    padding: 3px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    font-family: "Raleway";
+}
+/***********************************************/
