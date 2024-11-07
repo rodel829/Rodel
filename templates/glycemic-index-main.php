@@ -30,6 +30,25 @@ get_header(); ?>
 				</div>
 			</div>
 		</div> <!-- end of search box -->
+		<div class="most-search-container">
+			<h3 class="most-search-container__title">Most Search</h3>
+			<div class="most-search-container__container">
+				<div class="most-search-container__boxes box">
+					<div class="most-search-container__image">
+						<img src="/braise-child/img/rectangle-6.png" alt="Mushroom Varieties">
+					</div>
+					<div class="most-search-container__content">
+						<div class="most-search-container__content__code-diagram">
+							
+						</div>
+						<div class="most-search-container__content__code-graph">
+						</div>
+						<div class="most-search-container__content__desc">
+						</div>
+					</div>
+				</div>
+			</div><!-- end of most-search-box-container container -->
+		</div><!-- end of most search -->
 	</div>
 	
 
